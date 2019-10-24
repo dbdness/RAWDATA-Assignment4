@@ -33,6 +33,9 @@ namespace RawDataAssignment4._1
             modelBuilder.Entity<Product>().Property(p => p.Name).HasColumnName("productname");
             modelBuilder.Entity<Product>().Property(p => p.UnitPrice).HasColumnName("unitprice");
             modelBuilder.Entity<Product>().Property(p => p.CategoryId).HasColumnName("categoryid");
+            modelBuilder.Entity<Product>().Property(p => p.QuantityPerUnit).HasColumnName("quantityperunit");
+            modelBuilder.Entity<Product>().Property(p => p.UnitsInStock).HasColumnName("unitsinstock");
+
 
             /**
              * Order
@@ -43,11 +46,12 @@ namespace RawDataAssignment4._1
             modelBuilder.Entity<Order>().Property(o => o.ShipCity).HasColumnName("shipcity");
             modelBuilder.Entity<Order>().Property(o => o.Required).HasColumnName("requireddate");
             modelBuilder.Entity<Order>().Property(o => o.Date).HasColumnName("orderdate");
-            
+
             /**
              * Order Details
              */
             modelBuilder.Entity<OrderDetails>().ToTable("orderdetails");
+            modelBuilder.Entity<OrderDetails>().HasKey(o => new {o.OrderId, o.ProductId});
             modelBuilder.Entity<OrderDetails>().Property(o => o.OrderId).HasColumnName("orderid");
             modelBuilder.Entity<OrderDetails>().Property(o => o.Discount).HasColumnName("discount");
             modelBuilder.Entity<OrderDetails>().Property(o => o.ProductId).HasColumnName("productid");
