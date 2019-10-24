@@ -1,0 +1,11 @@
+/Users/dannynielsen/RiderProjects/RawDataAssignment4.1/RawDataAssignment4.1/bin/Debug/netcoreapp3.0/RawDataAssignment4.1
+/Users/dannynielsen/RiderProjects/RawDataAssignment4.1/RawDataAssignment4.1/bin/Debug/netcoreapp3.0/RawDataAssignment4.1.deps.json
+/Users/dannynielsen/RiderProjects/RawDataAssignment4.1/RawDataAssignment4.1/bin/Debug/netcoreapp3.0/RawDataAssignment4.1.runtimeconfig.json
+/Users/dannynielsen/RiderProjects/RawDataAssignment4.1/RawDataAssignment4.1/bin/Debug/netcoreapp3.0/RawDataAssignment4.1.runtimeconfig.dev.json
+/Users/dannynielsen/RiderProjects/RawDataAssignment4.1/RawDataAssignment4.1/bin/Debug/netcoreapp3.0/RawDataAssignment4.1.dll
+/Users/dannynielsen/RiderProjects/RawDataAssignment4.1/RawDataAssignment4.1/bin/Debug/netcoreapp3.0/RawDataAssignment4.1.pdb
+/Users/dannynielsen/RiderProjects/RawDataAssignment4.1/RawDataAssignment4.1/obj/Debug/netcoreapp3.0/RawDataAssignment4.1.csprojAssemblyReference.cache
+/Users/dannynielsen/RiderProjects/RawDataAssignment4.1/RawDataAssignment4.1/obj/Debug/netcoreapp3.0/RawDataAssignment4.1.AssemblyInfoInputs.cache
+/Users/dannynielsen/RiderProjects/RawDataAssignment4.1/RawDataAssignment4.1/obj/Debug/netcoreapp3.0/RawDataAssignment4.1.AssemblyInfo.cs
+/Users/dannynielsen/RiderProjects/RawDataAssignment4.1/RawDataAssignment4.1/obj/Debug/netcoreapp3.0/RawDataAssignment4.1.dll
+/Users/dannynielsen/RiderProjects/RawDataAssignment4.1/RawDataAssignment4.1/obj/Debug/netcoreapp3.0/RawDataAssignment4.1.pdb
