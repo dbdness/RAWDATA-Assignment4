@@ -1,8 +1,7 @@
 using System;
 using System.Linq;
-using RawDataAssignment4._1;
-using RawDataAssignment4._1.Models;
-using RawDataAssignment4._1.Services;
+using NorthwindDataService.Models;
+using NorthwindDataService.Services;
 using Xunit;
 
 namespace UnitTest

@@ -1,4 +1,4 @@
-namespace RawDataAssignment4._1.Models
+namespace NorthwindDataService.Models
 {
     public class OrderDetails
     {

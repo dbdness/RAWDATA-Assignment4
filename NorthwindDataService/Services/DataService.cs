@@ -1,11 +1,10 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
-using RawDataAssignment4._1.DbContext;
-using RawDataAssignment4._1.Models;
+using NorthwindDataService.DbContext;
+using NorthwindDataService.Models;
 
-namespace RawDataAssignment4._1.Services
+namespace NorthwindDataService.Services
 {
     public class DataService
     {

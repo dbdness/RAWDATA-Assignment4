@@ -14,6 +14,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\NorthwindDataService\NorthwindDataService.csproj" />
       <ProjectReference Include="..\RawDataAssignment4.1\RawDataAssignment4.1.csproj" />
     </ItemGroup>
 

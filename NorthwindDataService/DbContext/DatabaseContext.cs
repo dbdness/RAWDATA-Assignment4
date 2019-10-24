@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using RawDataAssignment4._1.Models;
+using NorthwindDataService.Models;
 
-namespace RawDataAssignment4._1.DbContext
+namespace NorthwindDataService.DbContext
 {
     public class DatabaseContext : Microsoft.EntityFrameworkCore.DbContext
     {
