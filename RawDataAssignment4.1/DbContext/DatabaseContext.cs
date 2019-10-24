@@ -1,9 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using RawDataAssignment4._1.Models;
 
-namespace RawDataAssignment4._1
+namespace RawDataAssignment4._1.DbContext
 {
-    public class DatabaseContext : DbContext
+    public class DatabaseContext : Microsoft.EntityFrameworkCore.DbContext
     {
         public DbSet<Category> Categories { get; set; }
         public DbSet<Order> Orders { get; set; }
