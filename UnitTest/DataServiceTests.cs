@@ -125,7 +125,7 @@ namespace UnitTest
             var products = service.GetProductByCategory(1);
             Assert.Equal(12, products.Count);
             Assert.Equal("Chai", products.First().Name);
-            Assert.Equal("Beverages", products.First().CategoryName);
+            Assert.Equal("Beverages", products.First().Category.Name);
             Assert.Equal("Lakkalik��ri", products.Last().Name);
         }
 
