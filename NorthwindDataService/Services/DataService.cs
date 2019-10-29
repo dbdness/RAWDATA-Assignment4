@@ -6,7 +6,7 @@ using NorthwindDataService.Models;
 
 namespace NorthwindDataService.Services
 {
-    public class DataService
+    public class DataService : IDataService
     {
         public List<Category> GetCategories()
         {
