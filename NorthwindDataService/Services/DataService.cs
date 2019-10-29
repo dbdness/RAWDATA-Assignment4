@@ -109,7 +109,6 @@ namespace NorthwindDataService.Services
         public Order GetOrder(int orderId)
         {
             using var db = new DatabaseContext();
-            var order = new Order();
 
             return db.Orders
                 .Include(o => o.OrderDetails)
@@ -127,9 +126,7 @@ namespace NorthwindDataService.Services
         public List<OrderDetails> GetOrderDetailsByOrderId(int orderId)
         {
             using var db = new DatabaseContext();
-            return db.OrderDetails.
-                Include(od => od.Order).
-                Include(od => od.Product)
+            return db.OrderDetails.Include(od => od.Order).Include(od => od.Product)
                 .ToList()
                 .FindAll(od => od.OrderId == orderId);
         }

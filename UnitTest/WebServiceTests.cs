@@ -155,7 +155,7 @@ namespace UnitTest
             Assert.Equal(HttpStatusCode.OK, statusCode);
             Assert.Equal(12, products.Count);
             Assert.Equal("Chai", products.First["name"]);
-            Assert.Equal("Beverages", products.First["categoryName"]);
+            Assert.Equal("Beverages", products.First["category"]["name"]);
             Assert.Equal("Lakkalikööri", products.Last["name"]);
         }
 
@@ -175,8 +175,8 @@ namespace UnitTest
 
             Assert.Equal(HttpStatusCode.OK, statusCode);
             Assert.Equal(4, products.Count);
-            Assert.Equal("NuNuCa Nuß-Nougat-Creme", products.First["productName"]);
-            Assert.Equal("Flotemysost", products.Last["productName"]);
+            Assert.Equal("NuNuCa Nuß-Nougat-Creme", products.First["name"]);
+            Assert.Equal("Flotemysost", products.Last["name"]);
         }
 
         [Fact]
