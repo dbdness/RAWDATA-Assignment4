@@ -9,8 +9,8 @@ namespace UnitTest
 {
     public class WebServiceTests
     {
-        private const string CategoriesApi = "http://localhost:5001/api/categories";
-        private const string ProductsApi = "http://localhost:5001/api/products";
+        private const string CategoriesApi = "https://localhost:5001/api/categories";
+        private const string ProductsApi = "https://localhost:5001/api/products";
 
         /* /api/categories */
 
